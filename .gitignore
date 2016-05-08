@@ -10,3 +10,4 @@ build
 .pydevproject
 *.o
 compton
+man
