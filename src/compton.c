@@ -5063,7 +5063,7 @@ parse_matrix(session_t *ps, const char *src, const char **endptr) {
     printf_errf("(): Width/height not odd.");
     goto parse_matrix_err;
   }
-  if (wid > 16 || hei > 16) {
+  if (wid > 64 || hei > 64) {
     printf_errf("(): Matrix width/height too large.");
     goto parse_matrix_err;
   }
